@@ -1,6 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <style>
+      #Ordinary {
+        color: rgba(252, 101, 101, 0.938);
+      }
+      #Primitive {
+        color: rgb(248, 53, 53);
+      }
+      #Mutant {
+        color: rgb(255, 0, 0);
+      }
+      #Sacred-Blood {
+        color: rgb(185, 8, 8);
+      }
+      #Super {
+        color: rgb(136, 0, 0);
+      }
+      a {
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      body {
+        background-color: lightgrey;
+      }
+      h1 {
+        background-color: rgb(85, 84, 84);
+        color: white;
+        text-align: center;
+      }
+      .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    </style>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,15 +44,28 @@
   </head>
   <body>
     <h1>The Guide to The Sanctuaries!</h1>
-    <p><img src="images/600.jpg" width="200" height="300" alt="" /></p>
+    <p>
+      <img src="images/1.jpg" width="800" height="300" alt="" class="center" />
+    </p>
 
     Creature Levels
     <ul>
-      <li><a href="Ordinary.html">Ordinary</a></li>
-      <li><a href="Primitive.html">Primitive</a></li>
-      <li><a href="Mutant.html">Mutant</a></li>
-      <li><a href="Sacred-Blood.html">Sacred-Blood</a></li>
-      <li><a href="Super.html">Super</a></li>
+      <li>
+        <a href="Ordinary.html" id="Ordinary"><b>Ordinary</b></a>
+      </li>
+      <!--could also be done with div-->
+      <li>
+        <a href="Primitive.html" id="Primitive"><b>Primitive</b></a>
+      </li>
+      <li>
+        <a href="Mutant.html" id="Mutant"><b>Mutant</b></a>
+      </li>
+      <li>
+        <a href="Sacred-Blood.html" id="Sacred-Blood"><b>Sacred-Blood</b></a>
+      </li>
+      <li>
+        <a href="Super.html" id="Super"><b>Super</b></a>
+      </li>
     </ul>
   </body>
 </html>
